@@ -1,0 +1,27 @@
+useDynLib(ppc)
+
+export(	ppc.cv,
+	ppc.fdr,
+	ppc.find.splits,
+	ppc.make.centroid.list,
+	ppc.make.peaklist,
+        ppc.peaks,
+	ppc.peak.summary,
+        ppc.fdr,
+	ppc.plot.hist,
+	ppc.plotcv,
+	ppc.plotcvprob,
+	ppc.plotfdr,
+	ppc.predict,
+	ppc.predict.peaks,
+	ppc.predict.peaks1,
+	ppc.predict1,
+	ppc.read.peaks.batch,
+	ppc.read.peaks.nobatch,
+	ppc.read.raw.batch,
+	ppc.read.raw.nobatch,
+	ppc.remove.beforeslash.and.suffix,
+	ppc.remove.suffix,
+	ppc.subset.and.reshape,
+	ppc.subset.and.reshape.peakdata)
+
