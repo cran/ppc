@@ -81,7 +81,6 @@ ppc.peaks <- function(x,span){
   
   n <- length(x) 
   
-#  dyn.load("/home/tibs/PAPERS/protein/ppc/work/PEAKS.so")
   junk <- .Fortran("peaks",
                    x,
                    as.integer(ispan),
@@ -95,14 +94,11 @@ hclust.1d <- function(x, debug=FALSE) {
   ##(fast) complete linkage hierarhical clustering, in one dimension
   ## R. Tibshirani Nov 2003
   # to make it work under Linux,
-  # rob uncommented dyn.load line, commented two lines and added scrat2=
   
   n<-length(x)
   storage.mode(x)<- "double"
   storage.mode(n)<- "integer"
   ##
-  ## dyn.load not needed when packaged!
-    dyn.load("/home/tibs/PAPERS/protein/ppc/work/hclust1d.so")
   ##
 
   idebug <- ifelse(debug, 1, 0)
