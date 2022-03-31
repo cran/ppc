@@ -23,7 +23,7 @@ Matrix containing on row per peak. Columns are peak.position,
                                rank.of.peak, in discriminatory power,
                                split point for peak height,
  proportion of samples in class 1 exceeding split point, proportion of samples in class 2 exceeding split point  etc,  pairwise differences in these probabilities,
-                               peak info for each sample}
+                               peak info for each sample
 }
 \author{ Balasubramanian Narasimhan and Rob Tibshirani }
 
