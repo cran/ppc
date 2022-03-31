@@ -3,7 +3,7 @@
 \title{ Function to estimate False Discovery rates for peaks in PPC analysis}
 \description{
  Estimate False Discovery rates for peaks in FDR analysis, using permutations
-of the sample labels}
+of the sample labels
 }
 \usage{
 ppc.fdr(data, centroid.fit, peak.fit, split.fit, ppc.fit, user.parms)
